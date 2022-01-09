@@ -13,7 +13,7 @@
     overflow: hidden;
     margin: 0;
     border: 30px solid transparent;
-    border-image-source: url(/modules/wooden-ui/ui/img/panel1.png);
+    border-image-source: url(/modules/wooden-ui-medik/ui/img/panel1.png);
     border-image-slice: 35 fill;
     background-position: center !important;
     background-size: 300px 100%!important;
@@ -29,7 +29,7 @@
     height: 410px !important;
     padding-left: 5px;
     border: 15px solid transparent;
-    border-image-source: url(/modules/wooden-ui/ui/img/panel1.png);
+    border-image-source: url(/modules/wooden-ui-medik/ui/img/panel1.png);
     border-image-slice: 35 fill;
     background-position: center !important;
     background-size: 100% 100%!important;
@@ -54,7 +54,7 @@ i.fa-caret-right::before{
 }
 
 .fa-caret-right{
-    background-image: url("/modules/wooden-ui/ui/img/inout.png") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/inout.png") !important;
     width: 100%;
     height: 100%;
     display: inline-block !important;
@@ -71,7 +71,7 @@ i.fa-caret-left::before{
 }
 
 .fa-caret-left{
-    background-image: url("/modules/wooden-ui/ui/img/inout.png") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/inout.png") !important;
     width: 100%;
     height: 100%;
     display: inline-block !important;
@@ -85,7 +85,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-comments {
     content: "";
-    background-image: url("/modules/wooden-ui/ui/img/chat_icon.png") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/chat_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -111,7 +111,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-fist-raised {
     content: "";
-    background-image: url("/modules/wooden-ui/ui/img/battle_icon.png") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/battle_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -125,7 +125,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-map {
     content: "";
-    background-image: url("/modules/wooden-ui/ui/img/flag_icon.PNG") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/flag_icon.PNG") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -139,7 +139,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-users {
     content: "";
-    background-image: url("/modules/wooden-ui/ui/img/SGI_91.png") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/SGI_91.png") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -153,7 +153,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-suitcase {
     content: "";
-    background-image: url("/modules/wooden-ui/ui/img/chest_icon.png") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/chest_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -167,7 +167,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-book-open {
     content: "";
-    background-image: url("/modules/wooden-ui/ui/img/scroll_icon.PNG") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/scroll_icon.PNG") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -181,7 +181,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-th-list {
     content: "";
-    background-image: url("/modules/wooden-ui/ui/img/TabletopBadges_50.PNG") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/TabletopBadges_50.PNG") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -195,7 +195,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-music {
     content: "";
-    background-image: url("/modules/wooden-ui/ui/img/music_icon.png") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/music_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -209,7 +209,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-atlas {
     content: "";
-    background-image: url("/modules/wooden-ui/ui/img/book_icon.PNG") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/book_icon.PNG") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -223,7 +223,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-id-badge {
     content: "";
-    background-image: url("/modules/wooden-ui/ui/img/card_icon.PNG") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/card_icon.PNG") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -238,7 +238,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-cogs {
     content: "";
-    background-image: url("/modules/wooden-ui/ui/img/config_icon.png") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/config_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -253,7 +253,7 @@ i.fa-caret-left::before{
 
 /* #region Chat Tab*/
 .message{
-    background-image: url("/modules/wooden-ui/ui/img/parchment-smooth.png") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/parchment-smooth.png") !important;
 }
 .message-sender {
     color: darkred;
@@ -263,7 +263,7 @@ i.fa-caret-left::before{
 }
 
 #chat-message{
-    background-image: url(/modules/wooden-ui/ui/img/parchment-smooth.png) !important;
+    background-image: url(/modules/wooden-ui-medik/ui/img/parchment-smooth.png) !important;
     box-shadow: 0px 0px 6px 1px #1e2022 inset;
     border-radius: 5px;
 }
@@ -277,12 +277,12 @@ i.fa-caret-left::before{
     height: 24px;
     top: 7px;
     padding-top: 0px;
-    background: url(/modules/wooden-ui/ui/img/parchment-smooth.png) repeat !important;
+    background: url(/modules/wooden-ui-medik/ui/img/parchment-smooth.png) repeat !important;
     background-position-x: 0%;
     background-position-y: 0%;
     background-position: initial;
     box-shadow: inset 0 0 10px #000000;
-    border-image: url(/modules/wooden-ui/ui/img/chat-controls-border.png) 4 repeat;
+    border-image: url(/modules/wooden-ui-medik/ui/img/chat-controls-border.png) 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
     color: #520000;
@@ -306,19 +306,19 @@ i.fa-caret-left::before{
     height: 24px;
     top: 7px;
     padding-top: 3px;
-    background: url(/modules/wooden-ui/ui/img/parchment-smooth.png) repeat;
+    background: url(/modules/wooden-ui-medik/ui/img/parchment-smooth.png) repeat;
     background-position-x: 0%;
     background-position-y: 0%;
     background-position: initial;
     box-shadow: inset 0 0 10px #000000;
-    border-image: url(/modules/wooden-ui/ui/img/chat-controls-border.png) 4 repeat;
+    border-image: url(/modules/wooden-ui-medik/ui/img/chat-controls-border.png) 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
     color: #520000;
 }
 
 #combat-controls .combat-control{
-    background-image: url(/modules/wooden-ui/ui/img/buttonredlight.png);
+    background-image: url(/modules/wooden-ui-medik/ui/img/buttonredlight.png);
     text-align: center;
     background-position: center !important;
     background-size: 260px 100%!important;
@@ -341,19 +341,19 @@ i.fa-caret-left::before{
     height: 24px;
     top: 7px;
     padding-top: 3px;
-    background: url(/modules/wooden-ui/ui/img/parchment-smooth.png) repeat;
+    background: url(/modules/wooden-ui-medik/ui/img/parchment-smooth.png) repeat;
     background-position-x: 0%;
     background-position-y: 0%;
     background-position: initial;
     box-shadow: inset 0 0 10px #000000;    
-    border-image: url(/modules/wooden-ui/ui/img/chat-controls-border.png) 4 repeat;
+    border-image: url(/modules/wooden-ui-medik/ui/img/chat-controls-border.png) 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
     color: #520000;
 
 }
 .sidebar-tab .directory-header button {
-    background-image: url(/modules/wooden-ui/ui/img/buttongreenlight.png);
+    background-image: url(/modules/wooden-ui-medik/ui/img/buttongreenlight.png);
     text-align: center;
     background-position: center !important;
     background-size: 100% 100% !important;
@@ -375,7 +375,7 @@ i.fa-caret-left::before{
 }
 
 .sidebar-tab .directory-footer button{
-    background-image: url(/modules/wooden-ui/ui/img/buttongreenlight.png);
+    background-image: url(/modules/wooden-ui-medik/ui/img/buttongreenlight.png);
     text-align: center;
     background-position: center !important;
     background-size: 100% 100% !important;
@@ -388,7 +388,7 @@ i.fa-caret-left::before{
 
 /* #region Folders as buttons */
 .sidebar-tab .folder .folder-header {
-    background-image: url(/modules/wooden-ui/ui/img/buttonlight3.png)  !important;
+    background-image: url(/modules/wooden-ui-medik/ui/img/buttonlight3.png)  !important;
     text-align: left !important;
     background-position: center !important;
     background-size: 100% 55px!important;
@@ -423,12 +423,12 @@ i.fa-caret-left::before{
     top: 7px;
     padding-top: 20px;
     padding-left: 30px;
-    background: url(/modules/wooden-ui/ui/img/buttonredlight.png) no-repeat;
+    background: url(/modules/wooden-ui-medik/ui/img/buttonredlight.png) no-repeat;
     background-position-x: 0%;
     background-size: 100% 55px;
     background-position-y: 0%;
     background-position: initial;
-    border-image: url(/modules/wooden-ui/ui/img/chat-controls-border.png) 4 repeat;
+    border-image: url(/modules/wooden-ui-medik/ui/img/chat-controls-border.png) 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
     text-shadow: 2px 2px 4px #000000;
@@ -439,7 +439,7 @@ i.fa-caret-left::before{
 /* #endregion */
 
 #settings button {
-   background-image: url(/modules/wooden-ui/ui/img/config.jpg);
+   background-image: url(/modules/wooden-ui-medik/ui/img/config.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    border: 1px solid black;
@@ -474,16 +474,16 @@ button:hover {
 }
 
 #chat-log .message.whisper {
-    background-image: url("/modules/wooden-ui/ui/img/parchment-hidden2.png") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/parchment-hidden2.png") !important;
     
 }
 
 /* #chat-log .message.whisper .message-header {
-    background-image: url("/modules/wooden-ui/ui/img/parchment-hidden2.png") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/parchment-hidden2.png") !important;
 } */
 
 #chat-log .message.whisper .message-content {
-    background-image: url("/modules/wooden-ui/ui/img/parchment-hidden2.png")  ;
+    background-image: url("/modules/wooden-ui-medik/ui/img/parchment-hidden2.png")  ;
     /*background-color: seashell !important;*/
 }
 
@@ -496,7 +496,7 @@ button:hover {
 
 
 #chat-log .message.blind .message-header .message-metadata::before{
-    background-image: url("/modules/wooden-ui/ui/img/parchment-hidden2.png") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/parchment-hidden2.png") !important;
     color: darkred;
     content: " (Blind Roll) " !important;
     float: left;
