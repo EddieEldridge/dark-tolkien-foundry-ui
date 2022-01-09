@@ -1,0 +1,15 @@
+{
+  "name": "wooden-ui",
+  "title": "Wooden UI",
+  "description": "A nice old medieval fantasy UI for FVTT, based on fantasy-UI work.",
+  "version": "0.1.0",
+  "author": "Lazarius",
+  "styles": [ "woodenui.css" ],
+  "esmodules": [],
+  "packs": [],
+  "minimumCoreVersion": "0.6.6",
+  "compatibleCoreVersion": "0.7.9",
+  "manifest": "https://gitlab.com/Lazarius/wooden-ui/-/raw/master/module.json",
+  "download": "https://gitlab.com/Lazarius/wooden-ui/-/raw/master/download/wooden-ui_0.1.0.zip",
+  "url": "https://gitlab.com/Lazarius/wooden-ui"
+}
