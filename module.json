@@ -1,8 +1,8 @@
 {
-  "name": "wooden-ui",
+  "name": "wooden-ui-medik",
   "title": "Wooden UI by Medik",
   "description": "A nice old medieval fantasy UI for FVTT, based on fantasy-UI work.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Lazarius - forked by Medik",
   "styles": [ "woodenui.css" ],
   "esmodules": [],
