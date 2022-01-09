@@ -221,6 +221,21 @@ i.fa-caret-left::before{
     content: "";
 }
 
+#sidebar #sidebar-tabs i.fa-badge {
+    content: "";
+    background-image: url("/modules/wooden-ui/ui/img/card_icon.PNG") !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: inline-block !important;
+    background-position:center !important;
+    background-size:cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-badge::before {
+    content: "";
+}
+
+
 #sidebar #sidebar-tabs i.fa-cogs {
     content: "";
     background-image: url("/modules/wooden-ui/ui/img/config_icon.png") !important;
