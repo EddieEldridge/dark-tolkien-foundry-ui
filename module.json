@@ -10,6 +10,6 @@
   "minimumCoreVersion": "0.6.6",
   "compatibleCoreVersion": "9.0.0",
   "manifest": "https://raw.githubusercontent.com/EddieEldridge/foundry-wooden-ui/master/module.json",
-  "download": "https://github.com/EddieEldridge/foundry-wooden-ui/raw/master/download/wooden-ui_0.2.0.zip",
+  "download": "https://github.com/EddieEldridge/foundry-wooden-ui/raw/master/download/wooden-ui_0.2.2.zip",
   "url": "https://github.com/EddieEldridge/foundry-wooden-ui"
 }
