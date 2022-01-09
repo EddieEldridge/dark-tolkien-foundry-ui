@@ -221,7 +221,7 @@ i.fa-caret-left::before{
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-badge {
+#sidebar #sidebar-tabs i.fa-id-badge {
     content: "";
     background-image: url("/modules/wooden-ui/ui/img/card_icon.PNG") !important;
     width: 100% !important;
@@ -231,7 +231,7 @@ i.fa-caret-left::before{
     background-size:cover !important;
 }
 
-#sidebar #sidebar-tabs i.fa-badge::before {
+#sidebar #sidebar-tabs i.fa-id-badge::before {
     content: "";
 }
 
