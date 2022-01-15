@@ -223,7 +223,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-id-badge {
     content: "";
-    background-image: url("/modules/wooden-ui-medik/ui/img/card_icon.PNG") !important;
+    background-image: url("/modules/wooden-ui-medik/ui/img/card_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -503,3 +503,77 @@ button:hover {
     
 }
 /* #endregion */
+
+/* HOTBAR */
+#ui-bottom > div {
+    justify-content: center;
+}
+
+#hotbar {
+    position: relative;
+    right: 145px;
+}
+
+#hotbar #action-bar {
+    position: relative;
+}
+
+#action-bar:not(.collapsed)::before {
+    position: absolute;
+    z-index: -1;
+    content: " ";
+    width: 146%;
+    bottom: -10px;
+    left: -23%;
+    height: 85px;
+    background-image: url(/modules/wooden-ui-medik/frames/action_bar.webp);
+    background-size: 100% 85px;
+    background-repeat: no-repeat;
+}
+
+#hotbar #action-bar .macro {
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0 0;
+}
+
+#hotbar #action-bar .macro::before {
+    background-image: url(/modules/wooden-ui-medik/frames/macro.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    content: " ";
+    width: 61px;
+    height: 78px;
+    top: -11px;
+    left: -9px;
+    z-index: 1;
+}
+
+#hotbar #action-bar .macro:hover::before {
+    background-image: url(/modules/wooden-ui-medik/frames/macro_hover.webp);
+}
+
+#hotbar .macro .macro-key {
+    top: initial;
+    bottom: 2px;
+    z-index: 3;
+    color: #837360;
+    background: none;
+}
+
+#hotbar .macro .macro-icon {
+    position: relative;
+    z-index: 2;
+}
+
+#hotbar #macro-list {
+    grid-gap: 8px;
+}
+
+#hotbar .bar-controls {
+    color: #837360;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
