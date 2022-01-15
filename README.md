@@ -10,6 +10,8 @@ Then you may copy this url https://raw.githubusercontent.com/EddieEldridge/medik
 
 ## Acknowledgement
 [iotech](https://foundryvtt.com/community/iotech) for his great work on [fantasy-ui theme](https://foundryvtt.com/packages/fantasy-ui/).
+
 [Lazarius](https://foundryvtt.com/community/lazarius) for his great work on [wooden-ui theme](https://foundryvtt.com/packages/wooden-ui/).
+
 [Xbozon](https://foundryvtt.com/community/Xbozon) for his great work on [rpg-styled-ui theme](https://foundryvtt.com/packages/rpg-styled-ui/).
 
