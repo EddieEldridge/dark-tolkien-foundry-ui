@@ -7,7 +7,7 @@
   "styles": [ "woodenui.css" ],
   "esmodules": [],
   "packs": [],
-  "minimumCoreVersion": "0.6.6",
+  "minimumCoreVersion": "9.0.0",
   "compatibleCoreVersion": "9.0.0",
   "manifest": "https://raw.githubusercontent.com/EddieEldridge/medik-foundry-ui/master/module.json",
   "download": "https://github.com/EddieEldridge/medik-foundry-ui/raw/master/download/medik-foundry-ui_0.2.4.zip",
