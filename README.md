@@ -1,6 +1,10 @@
 # medik-ui
 A customized version of of Wooden UI by Lazarius and Dark RPG Styled UI by Xbozon
 
+
+## Compatibility 
+Foundry version V9+
+
 ## Setup
 To install this module, go to the World Configuration and Setup, Addon Modules, Install Module.
 Then you may copy this url https://raw.githubusercontent.com/EddieEldridge/medik-foundry-ui/master/module.json
