@@ -22,10 +22,10 @@
     "requires": []
   },
   "esmodules": [
-    "N/A"
+    "scripts/module.js"
   ],
   "scripts": [
-    "N/A"
+    "scripts/lib/lib.js"
   ],
   "styles": [
     "tolkien-ui.css"
