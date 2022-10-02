@@ -1,8 +1,7 @@
-# medik-ui
+# Tolkien UI
 A customized version of of Wooden UI by Lazarius and Dark RPG Styled UI by Xbozon
 
-
-## Compatibility 
+## Compatibility
 Foundry version V9+
 
 ## Setup
