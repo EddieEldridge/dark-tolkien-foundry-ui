@@ -1,15 +1,51 @@
 {
-  "name": "medik-foundry-ui",
-  "title": "Medik's UI",
-  "description": "A blend of Wooden UI by Lazarius and Dark RPG Styled UI by Xbozon",
-  "version": "0.2.4",
-  "author": "Medik",
-  "styles": [ "woodenui.css" ],
-  "esmodules": [],
-  "packs": [],
-  "minimumCoreVersion": "9.0.0",
-  "compatibleCoreVersion": "9.0.0",
-  "manifest": "https://raw.githubusercontent.com/EddieEldridge/medik-foundry-ui/master/module.json",
-  "download": "https://github.com/EddieEldridge/medik-foundry-ui/raw/master/download/medik-foundry-ui_0.2.4.zip",
-  "url": "https://github.com/EddieEldridge/medik-foundry-ui"
+  "id": "Tolkien UI",
+  "title": "Tolkien UI",
+  "description": "A Tolkien themed UI with lots of wood and warm themes.",
+  "version": "This is auto replaced",
+  "library": "false",
+  "manifestPlusVersion": "1.2.0",
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10,
+    "maximum": 10
+  },
+  "authors": [
+    {
+      "name": "Medik",
+      "url": "https://github.com/EddieEldridge",
+      "discord": "Medik#0001"
+    }
+  ],
+  "relationships": {
+    "systems": [],
+    "requires": []
+  },
+  "esmodules": [
+    ""
+  ],
+  "scripts": [
+    ""
+  ],
+  "styles": [
+    "tolkien-ui.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "url": "This is auto replaced",
+  "manifest": "This is auto replaced",
+  "download": "This is auto replaced",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://i.imgur.com/mfCznnS.png"
+    }
+  ]
 }
