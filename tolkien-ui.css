@@ -25,7 +25,7 @@
 
 #sidebar.collapsed {
     width: 70px !important;
-    height: 425px !important;
+    height: 455px !important;
     border: 15px solid transparent;
     border-image-source: url(./ui/img/panel1.png);
     border-image-slice: 35 fill;
@@ -37,13 +37,13 @@
 
 #sidebar-tabs{
     text-align: center;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #241f1f;
     box-shadow: 0 0 10px #969888;
     height: 50px;
+    padding: 5px
 }
 
 #sidebar #sidebar-tabs > .item {
-    /* padding: 2px; */
 }
 
 i.fa-caret-right::before{
@@ -89,15 +89,13 @@ i.fa-caret-left::before{
     background-position:center !important;
     background-size:cover !important;
 }
-#sidebar-tabs {
-    height: 64px;
-}
+
 #sidebar-tabs > .item {
     height: 32px;
+    width: 40px;
 }
 #sidebar-tabs > .item.active {
-    color: #FFF;
-    border: 1px solid #c7c1a8;
+    border: 2px solid #7a7a7a;
     box-shadow: 0 0 6px inset #534f45;
 }
 #sidebar #sidebar-tabs i.fa-comments::before {
@@ -107,7 +105,7 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-swords {
     content: "";
     background-image: url("./ui/img/battle_icon.png") !important;
-    width: 100% !important;
+    width: 120% !important;
     height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
@@ -210,6 +208,7 @@ i.fa-caret-left::before{
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
+    margin-top: 2px;
 }
 
 #sidebar #sidebar-tabs i.fa-atlas::before {
@@ -219,7 +218,7 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-cards {
     content: "";
     background-image: url("./ui/img/card_icon.png") !important;
-    width: 100% !important;
+    width: 110% !important;
     height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
@@ -234,7 +233,7 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-cogs {
     content: "";
     background-image: url("./ui/img/config_icon.png") !important;
-    width: 90% !important;
+    width: 110% !important;
     height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
@@ -247,18 +246,16 @@ i.fa-caret-left::before{
 /* #endregion */
 
 /* #region Chat Tab*/
-.message{
-    background-image: url("./ui/img/parchment-smooth.png") !important;
-}
 .message-sender {
-    color: darkred;
+    color: #ffb854;
     font-weight: bold;
-    border-bottom-color: darkred;
-    text-decoration: underline;
+
+    /*     border-bottom-color: darkred; */
+    /* text-decoration: underline; */
 }
 
 #chat-message{
-    background-image: url(./ui/img/parchment-smooth.png) !important;
+    /* background-image: url(./ui/img/parchment-smooth.png) !important; */
     box-shadow: 0px 0px 6px 1px #1e2022 inset;
     border-radius: 5px;
 }
@@ -280,7 +277,7 @@ i.fa-caret-left::before{
     border-image: url(./ui/img/chat-controls-border.png) 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
-    color: #520000;
+    color: #ffb144;
     margin-top: -10px;
 }
 .roll-type-select{
@@ -309,7 +306,7 @@ i.fa-caret-left::before{
     border-image: url(./ui/img/chat-controls-border.png) 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
-    color: #520000;
+    color: #ffb144;
 }
 
 #combat-controls .combat-control{
@@ -344,7 +341,7 @@ i.fa-caret-left::before{
     border-image: url(./ui/img/chat-controls-border.png) 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
-    color: #520000;
+    color: #ffb144;
 
 }
 .sidebar-tab .directory-header button {
@@ -431,6 +428,7 @@ i.fa-caret-left::before{
 #compendium ol.compendium-list {
     padding-left: 25px;;
 }
+
 /* #endregion */
 
 #settings button {
@@ -441,7 +439,7 @@ i.fa-caret-left::before{
    color: white;
    font-size: 16px;
    height: 30px;
-   width: 270px;
+   width: 300px;
 }
 
 button:hover {
@@ -461,47 +459,13 @@ button:hover {
 /* #endregion */
 
 /* #region Chat log */
-/* differentiate public roll from private or blind.
- Private uses class whisper, blind uses class blind AND whisper, Self Roll
- uses class whisper (identical to Private Roll for CSS) */
-#chat-log .message.whisper {
-    font-style: italic;
-}
 
-#chat-log .message.whisper {
-    background-image: url("./ui/img/parchment-hidden2.png") !important;
-
-}
-
-/* #chat-log .message.whisper .message-header {
-    background-image: url("./ui/img/parchment-hidden2.png") !important;
-} */
-
-#chat-log .message.whisper .message-content {
-    background-image: url("./ui/img/parchment-hidden2.png")  ;
-    /*background-color: seashell !important;*/
-}
-
-#chat-log .message.whisper .message-header .message-metadata::before{
-    color: darkred;
-    content: " (Private Roll) ";
-    float: left;
-
-}
-
-
-#chat-log .message.blind .message-header .message-metadata::before{
-    background-image: url("./ui/img/parchment-hidden2.png") !important;
-    color: darkred;
-    content: " (Blind Roll) " !important;
-    float: left;
-
-}
 /* #endregion */
 
 /* HOTBAR */
 #ui-bottom > div {
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 #hotbar {
@@ -517,13 +481,15 @@ button:hover {
     position: absolute;
     z-index: -1;
     content: " ";
-    width: 146%;
-    bottom: -10px;
-    left: -23%;
-    height: 85px;
-    background-image: url(./ui/frames/action_bar.webp);
-    background-size: 100% 85px;
-    background-repeat: no-repeat;
+    bottom: -32px;
+    width: 105%;
+    left: -12%;
+
+    height: 30px;
+    border: 40px solid transparent;
+    border-image-source: url(./ui/img/panel1.png);
+    border-image-slice: 35 fill;
+
 }
 
 #hotbar #action-bar .macro {
@@ -545,6 +511,7 @@ button:hover {
     z-index: 1;
 }
 
+
 #sidebar {
     width: 100%;
     position: absolute;
@@ -562,6 +529,10 @@ button:hover {
     background: none;
 }
 
+#hotbar .flexrow {
+    padding-top: 2.5px !important;
+}
+
 #hotbar .macro .macro-icon {
     position: relative;
     z-index: 2;
@@ -576,4 +547,166 @@ button:hover {
     background: none;
     border: none;
     box-shadow: none;
+}
+
+#sidebar.collapsed a {
+    height: 500px;
+    width: 30px;
+}
+
+/* Fade In */
+#chat-log {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+  }
+
+#hotbar {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+  }
+
+@keyframes fadein {
+from {
+    opacity:0;
+}
+to {
+    opacity:1;
+}
+}
+@-moz-keyframes fadein { /* Firefox */
+from {
+    opacity:0;
+}
+to {
+    opacity:1;
+}
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+from {
+    opacity:0;
+}
+to {
+    opacity:1;
+}
+}
+@-o-keyframes fadein { /* Opera */
+from {
+    opacity:0;
+}
+to {
+    opacity: 1;
+}
+}
+
+#navigation.background .monks-scene-navigation .scene-list {
+    background: #00000000 !important;
+    border: none !important;
+}
+
+
+
+#controls  {
+  filter: sepia(100%) saturate(200%) brightness(150%) hue-rotate(350deg);
+}
+
+.chat-message {
+    background: #1D1D1A !important;
+}
+
+.chat-message.message {
+   color: white;
+}
+
+.chat-message span {
+   color: white;
+}
+
+/* differentiate public roll from private or blind.
+ Private uses class whisper, blind uses class blind AND whisper, Self Roll
+ uses class whisper (identical to Private Roll for CSS) */
+#chat-log .message.whisper {
+    font-style: italic;
+}
+
+#chat-log .message.whisper {
+    background: #0c0c0c !important;
+}
+
+/* #chat-log .message.whisper .message-header {
+    background-image: url("./ui/img/parchment-hidden2.png") !important;
+} */
+
+
+
+#chat-log .message.whisper .message-header .message-metadata::before{
+    color: #ffb144;
+    content: " (Private Roll) ";
+    float: left;
+
+}
+
+
+#chat-log .message.blind .message-header .message-metadata::before{
+    background-image: url("./ui/img/parchment-hidden2.png") !important;
+    color: #ffb144;
+    content: " (Blind Roll) " !important;
+    float: left;
+
+}
+
+#chat-log .item-name {
+    color: #e5bb86;
+}
+
+#chat-log > red-damage {
+    color: #f1e7e7 !important;
+}
+
+#chat-log  button {
+    color: white;
+}
+
+.dice-total {
+    color: #ffffff;
+    text-style: bold;
+}
+
+
+#chat-form textarea {
+    background: rgb(48 47 47 / 55%) !important;
+    color: white;
+}
+
+.failure {
+    color: #f15151 !important;
+}
+
+.success {
+    color: #7dfe4b !important;
+}
+
+.roll-type-select {
+    background: rgb(48 47 47 / 55%) !important;
+    color: white !important;
+}
+
+.control-buttons a {
+    margin: 2px;
+}
+
+#chat-controls {
+    margin: 2px;
+    margin-bottom: 0px;
+}
+
+body {
+    background-image: url("https://images.wallpapersden.com/image/download/lord-of-the-rings_a21qbGWUmZqaraWkpJRnamtlrWZlbWU.jpg") !important;
+}
+
+.message-metadata {
+    display: none;
 }
