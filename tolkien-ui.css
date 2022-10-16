@@ -247,11 +247,16 @@ i.fa-caret-left::before{
 
 /* #region Chat Tab*/
 .message-sender {
-    color: #ffb854;
+    color: #ffd59b;
     font-weight: bold;
+    font-size: 24px;
+    padding: 2px;
+    text-shadow: 1px 1px black;
+}
 
-    /*     border-bottom-color: darkred; */
-    /* text-decoration: underline; */
+#players h3 {
+    color: #ffd59b;
+    font-weight: bold;
 }
 
 #chat-message{
@@ -387,8 +392,9 @@ i.fa-caret-left::before{
     background-repeat: no-repeat !important;
     padding-top: 15px;
     padding-bottom: 10px;
-    color: white;
     padding-left: 25px;
+    color: #eed8d8;
+    text-shadow: 2px 2px black;
 }
 
 .sidebar-tab .directory-list .directory.item h3 {
@@ -439,7 +445,11 @@ i.fa-caret-left::before{
    color: white;
    font-size: 16px;
    height: 30px;
-   width: 300px;
+   width: 310px;
+}
+
+.folder-header h3 {
+    text-shadow: 2px 2px 2px 2px #000000 !important;
 }
 
 button:hover {
@@ -465,7 +475,7 @@ button:hover {
 /* HOTBAR */
 #ui-bottom > div {
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 1px;
 }
 
 #hotbar {
@@ -481,15 +491,13 @@ button:hover {
     position: absolute;
     z-index: -1;
     content: " ";
-    bottom: -32px;
-    width: 105%;
-    left: -12%;
-
-    height: 30px;
-    border: 40px solid transparent;
+    bottom: -23px;
+    height: 10px;
+    width: 102.5%;
+    left: -10%;
+    border: 40px solid #ff0000;
     border-image-source: url(./ui/img/panel1.png);
-    border-image-slice: 35 fill;
-
+    border-image-slice: 60 fill;
 }
 
 #hotbar #action-bar .macro {
@@ -563,6 +571,13 @@ button:hover {
   }
 
 #hotbar {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+  }
+
+#body  {
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -659,15 +674,18 @@ to {
 }
 
 #chat-log .item-name {
-    color: #e5bb86;
-}
-
-#chat-log > red-damage {
-    color: #f1e7e7 !important;
+    color: #ffbf66;
 }
 
 #chat-log  button {
     color: white;
+    font-size: 15px;
+}
+
+
+#chat-log button:hover {
+    color: #ffc158;
+    font-size: 18px;
 }
 
 .dice-total {
@@ -694,6 +712,11 @@ to {
     color: white !important;
 }
 
+.roll-type-select option{
+    background: rgb(0 0 0 / 86%) !important;
+    color: white !important;
+}
+
 .control-buttons a {
     margin: 2px;
 }
@@ -707,6 +730,7 @@ body {
     background-image: url("https://images.wallpapersden.com/image/download/lord-of-the-rings_a21qbGWUmZqaraWkpJRnamtlrWZlbWU.jpg") !important;
 }
 
-.message-metadata {
-    display: none;
+.card-content {
+    font-size: 15px;
+    color: #f8ecdd;
 }

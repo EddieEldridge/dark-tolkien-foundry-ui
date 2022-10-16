@@ -1,18 +1,22 @@
 # Tolkien UI
-A customized version of of Wooden UI by Lazarius and Dark RPG Styled UI by Xbozon
+A dark, warm custom UI built using elements from various other UI libraries.
 
 ## Compatibility
-Foundry version V9+
+Foundry version V10+
 
 ## Setup
 To install this module, go to the World Configuration and Setup, Addon Modules, Install Module.
-Then you may copy this url https://raw.githubusercontent.com/EddieEldridge/medik-foundry-ui/master/module.json
+Then you may copy this url https://github.com/EddieEldridge/tolkien-foundry-ui/releases/latest/module.json
 
 ## **Screenshot**
 
-![alt text](https://i.imgur.com/uJlwoL1.png)
-![](https://i.imgur.com/ehNx0ob.png)
-![](https://i.imgur.com/yNvuSwG.png)
+![alt text](https://i.imgur.com/qwl1LGa.png)
+![](https://i.imgur.com/mYVJiHB.png)
+![](https://i.imgur.com/fzqDoVP.png)![](https://i.imgur.com/Ka0KzTf.png)
+
+## Recommended Modules
+- Monk's Scene Navigation
+- Tidy Sheet 5e
 
 ### **Note**
 The LOTR logo in the top left is not included as part of this module. To re-create this effect, install the [Custom CSS Rules module](https://foundryvtt.com/packages/custom-css) and input the following
