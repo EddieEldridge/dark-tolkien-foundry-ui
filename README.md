@@ -6,7 +6,7 @@ Foundry version V10+
 
 ## Setup
 To install this module, go to the World Configuration and Setup, Addon Modules, Install Module.
-Then you may copy this url https://github.com/EddieEldridge/tolkien-foundry-ui/releases/latest/module.json
+Then you may copy this url https://github.com/EddieEldridge/tolkien-foundry-ui/releases/latest/download/module.json
 
 ## **Screenshots**
 
