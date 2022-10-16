@@ -726,11 +726,13 @@ to {
     margin-bottom: 0px;
 }
 
-body {
-    background-image: url("https://images.wallpapersden.com/image/download/lord-of-the-rings_a21qbGWUmZqaraWkpJRnamtlrWZlbWU.jpg") !important;
-}
-
 .card-content {
     font-size: 15px;
     color: #f8ecdd;
+}
+
+#logo {
+	content:url("https://www.theknightsvault.com/wp-content/uploads/2017/08/Lord-of-The-Rings-Logo-PNG-Transparent-Image.png");
+	padding-left: 18px;
+	width: 90px;
 }
