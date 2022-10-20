@@ -247,7 +247,7 @@ i.fa-caret-left::before{
 
 /* #region Chat Tab*/
 .message-sender {
-    color: #ffd59b;
+    color: #f6c075;
     font-weight: bold;
     font-size: 24px;
     padding: 2px;
@@ -346,8 +346,6 @@ i.fa-caret-left::before{
     border-image: url(./ui/img/chat-controls-border.png) 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
-    color: #ffb144;
-
 }
 .sidebar-tab .directory-header button {
     background-image: url(./ui/img/buttongreenlight.png);
@@ -493,8 +491,8 @@ button:hover {
     content: " ";
     bottom: -23px;
     height: 10px;
-    width: 102.5%;
-    left: -10%;
+    width: 100%;
+    left: -8%;
     border: 40px solid #ff0000;
     border-image-source: url(./ui/img/panel1.png);
     border-image-slice: 60 fill;
