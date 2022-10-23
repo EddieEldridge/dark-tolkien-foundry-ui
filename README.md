@@ -14,6 +14,18 @@ Then you may copy this url https://github.com/EddieEldridge/tolkien-foundry-ui/r
 ![](https://i.imgur.com/mYVJiHB.png)
 ![](https://i.imgur.com/fzqDoVP.png)![](https://i.imgur.com/Ka0KzTf.png)
 
+### **Note**
+The LOTR logo in the top left is not included as part of this module. To re-create this effect, install the [Custom CSS Rules module](https://foundryvtt.com/packages/custom-css) and input the following
+
+```
+#logo {
+	content:url("https://www.theknightsvault.com/wp-content/uploads/2017/08/Lord-of-The-Rings-Logo-PNG-Transparent-Image.png");
+	padding-left: 18px;
+	width: 90px;
+}
+```
+
+
 ## Recommended Modules
 - Monk's Scene Navigation
 - Tidy Sheet 5e
