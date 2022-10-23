@@ -1,4 +1,4 @@
-# Tolkien UI
+# Tolkien UI (Dark)
 A dark, warm custom UI built using elements from various other UI libraries.
 
 ## Compatibility
