@@ -1,7 +1,7 @@
 {
-  "id": "tolkienui",
-  "title": "Tolkien UI",
-  "description": "A Tolkien themed UI with lots of wood and warm themes.",
+  "id": "tolkienuidark",
+  "title": "Tolkien UI (Dark)",
+  "description": "A Dark Tolkien themed UI with lots of wood and warm themes.",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
