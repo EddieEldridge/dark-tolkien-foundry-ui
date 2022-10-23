@@ -1,5 +1,5 @@
 # Tolkien UI (Dark)
-A dark, warm custom UI built using elements from various other UI libraries.
+A dark 'Tolkien' inspired custom UI built from scratch including custom icons, hotbar, sidebar and more!
 
 ## Compatibility
 Foundry version V10+
