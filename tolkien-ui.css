@@ -25,7 +25,7 @@
 
 #sidebar.collapsed {
     width: 70px !important;
-    height: 455px !important;
+    height: 380px !important;
     border: 15px solid transparent;
     border-image-source: url(./ui/img/panel1.png);
     border-image-slice: 35 fill;
@@ -90,10 +90,16 @@ i.fa-caret-left::before{
     background-size:cover !important;
 }
 
-#sidebar-tabs > .item {
-    height: 32px;
-    width: 40px;
+/* Icons */
+#sidebar-tabs {
+    --sidebar-tab-height: 28px;
+    --sidebar-tab-width: 28px;
 }
+
+#sidebar-tabs > .item {
+      border: 0px solid !important;
+}
+
 #sidebar-tabs > .item.active {
     border: 2px solid #7a7a7a;
     box-shadow: 0 0 6px inset #534f45;
@@ -105,7 +111,7 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-swords {
     content: "";
     background-image: url("./ui/img/battle_icon.png") !important;
-    width: 120% !important;
+    width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
@@ -208,7 +214,6 @@ i.fa-caret-left::before{
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
-    margin-top: 2px;
 }
 
 #sidebar #sidebar-tabs i.fa-atlas::before {
@@ -247,7 +252,7 @@ i.fa-caret-left::before{
 
 /* #region Chat Tab*/
 .message-sender {
-    color: #f6c075;
+    color: #ffaf40;
     font-weight: bold;
     font-size: 24px;
     padding: 2px;
@@ -665,7 +670,7 @@ to {
 }
 
 #chat-log .item-name {
-    color: #ffbf66;
+    color: #ffc575;
 }
 
 #chat-log  button {
