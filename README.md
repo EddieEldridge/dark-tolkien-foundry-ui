@@ -10,9 +10,9 @@ Then you may copy this url https://github.com/EddieEldridge/tolkien-foundry-ui/r
 
 ## **Screenshots**
 
-![alt text](https://i.imgur.com/qwl1LGa.png)
-![](https://i.imgur.com/mYVJiHB.png)
-![](https://i.imgur.com/fzqDoVP.png)![](https://i.imgur.com/Ka0KzTf.png)
+![alt text](https://i.imgur.com/yJFVk8U.png)
+![](https://i.imgur.com/bOlxE0b.png)
+![](https://i.imgur.com/BwGkHUg.png)![](https://i.imgur.com/yafMWfg.png)
 
 ### **Note**
 The LOTR logo in the top left is not included as part of this module. To re-create this effect, install the [Custom CSS Rules module](https://foundryvtt.com/packages/custom-css) and input the following
@@ -31,6 +31,8 @@ The LOTR logo in the top left is not included as part of this module. To re-crea
 - Tidy Sheet 5e
 
 ## Acknowledgements
+[OpenGameArt](https://opengameart.org/) and all the associated artists for their Open Source art.
+
 [iotech](https://foundryvtt.com/community/iotech) for his great work on [fantasy-ui theme](https://foundryvtt.com/packages/fantasy-ui/).
 
 [Lazarius](https://foundryvtt.com/community/lazarius) for his great work on [wooden-ui theme](https://foundryvtt.com/packages/wooden-ui/).
