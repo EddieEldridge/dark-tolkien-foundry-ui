@@ -101,8 +101,8 @@ i.fa-caret-left::before{
 }
 
 #sidebar-tabs > .item.active {
-    border: 2px solid #7a7a7a;
-    box-shadow: 0 0 6px inset #534f45;
+    border: 2px solid #f78d05;
+    box-shadow: 0 0 6px inset #eeaa00;
 }
 #sidebar #sidebar-tabs i.fa-comments::before {
     content: "";
@@ -181,8 +181,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-th-list {
     content: "";
     background-image: url("./ui/img/TabletopBadges_50.PNG") !important;
-    width: 100% !important;
-    height: 100% !important;
+    width: 95% !important;
+    height: 95% !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -197,6 +197,7 @@ i.fa-caret-left::before{
     background-image: url("./ui/img/music_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
+    margin-top: 1px !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -223,7 +224,7 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-cards {
     content: "";
     background-image: url("./ui/img/card_icon.png") !important;
-    width: 110% !important;
+    width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
@@ -238,8 +239,9 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-cogs {
     content: "";
     background-image: url("./ui/img/config_icon.png") !important;
-    width: 110% !important;
-    height: 100% !important;
+    width: 100% !important;
+    height: 95% !important;
+    margin-top: 1px !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -336,6 +338,7 @@ i.fa-caret-left::before{
 }
 
 .sidebar-tab .directory-header .header-search input {
+    color: white;
     font-family: CaslonPro;
     font-weight: 500;
     font-size: 14px;
@@ -396,7 +399,7 @@ i.fa-caret-left::before{
     padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 25px;
-    color: #eed8d8;
+    color: #ffffff;
     text-shadow: 2px 2px black;
 }
 
@@ -417,7 +420,7 @@ i.fa-caret-left::before{
 /* #endregion */
 
 /* #region Compendium headers */
-#compendium h3 {
+#compendium > h3 {
     text-align: left;
     position: relative;
     height: 55px;
@@ -425,10 +428,6 @@ i.fa-caret-left::before{
     padding-top: 20px;
     padding-left: 30px;
     background: url(./ui/img/buttonredlight.png) no-repeat;
-    background-position-x: 0%;
-    background-size: 100% 55px;
-    background-position-y: 0%;
-    background-position: initial;
     border-image: url(./ui/img/chat-controls-border.png) 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
@@ -436,6 +435,14 @@ i.fa-caret-left::before{
 }
 #compendium ol.compendium-list {
     padding-left: 25px;;
+}
+
+li.compendium-folder > .compendium-folder-header {
+  padding: 6px;
+  line-height: 24px;
+  background: rgba(255, 255, 255, 0.2);
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 /* #endregion */
@@ -452,7 +459,7 @@ i.fa-caret-left::before{
 }
 
 .folder-header h3 {
-    text-shadow: 2px 2px 2px 2px #000000 !important;
+    text-shadow: 2px 2px 2px #000000 !important;
 }
 
 button:hover {
@@ -724,5 +731,5 @@ to {
 
 .card-content {
     font-size: 15px;
-    color: #f8ecdd;
+    color: #ffffff;
 }
