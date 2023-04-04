@@ -1,5 +1,4 @@
-/* #region Sidebar*/
-
+/* SIDEBAR */
 #sidebar {
     display: flex;
     flex-direction: column;
@@ -43,15 +42,12 @@
     padding: 5px
 }
 
-#sidebar #sidebar-tabs > .item {
-}
-
 i.fa-caret-right::before{
     content: "";
 }
 
 .fa-caret-right{
-    background-image: url("./ui/img/inout.png") !important;
+    background-image: url("./ui/img/icons/inout.png") !important;
     width: 100%;
     height: 100%;
     display: inline-block !important;
@@ -68,7 +64,7 @@ i.fa-caret-left::before{
 }
 
 .fa-caret-left{
-    background-image: url("./ui/img/inout.png") !important;
+    background-image: url("./ui/img/icons/inout.png") !important;
     width: 100%;
     height: 100%;
     display: inline-block !important;
@@ -82,15 +78,16 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-comments {
     content: "";
-    background-image: url("./ui/img/chat_icon.png") !important;
+    background-image: url("./ui/img/icons/chat_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
 }
+/**************/
 
-/* Icons */
+/* ICONS */
 #sidebar-tabs {
     --sidebar-tab-height: 28px;
     --sidebar-tab-width: 28px;
@@ -110,7 +107,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-swords {
     content: "";
-    background-image: url("./ui/img/battle_icon.png") !important;
+    background-image: url("./ui/img/icons/battle_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -124,7 +121,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-map {
     content: "";
-    background-image: url("./ui/img/flag_icon.PNG") !important;
+    background-image: url("./ui/img/icons/flag_icon.PNG") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -138,7 +135,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-user {
     content: "";
-    background-image: url("./ui/img/SGI_91.png") !important;
+    background-image: url("./ui/img/icons/actors_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -152,7 +149,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-suitcase {
     content: "";
-    background-image: url("./ui/img/chest_icon.png") !important;
+    background-image: url("./ui/img/icons/chest_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -166,7 +163,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-book-open {
     content: "";
-    background-image: url("./ui/img/scroll_icon.PNG") !important;
+    background-image: url("./ui/img/icons/scroll_icon.PNG") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -180,7 +177,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-th-list {
     content: "";
-    background-image: url("./ui/img/TabletopBadges_50.PNG") !important;
+    background-image: url("./ui/img/icons/dice_icon.PNG") !important;
     width: 95% !important;
     height: 95% !important;
     display: inline-block !important;
@@ -209,7 +206,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-atlas {
     content: "";
-    background-image: url("./ui/img/book_icon.PNG") !important;
+    background-image: url("./ui/img/icons/book_icon.PNG") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -223,7 +220,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-cards {
     content: "";
-    background-image: url("./ui/img/card_icon.png") !important;
+    background-image: url("./ui/img/icons/card_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -235,10 +232,9 @@ i.fa-caret-left::before{
     content: "";
 }
 
-
 #sidebar #sidebar-tabs i.fa-cogs {
     content: "";
-    background-image: url("./ui/img/config_icon.png") !important;
+    background-image: url("./ui/img/icons/config_icon.png") !important;
     width: 100% !important;
     height: 95% !important;
     margin-top: 1px !important;
@@ -250,9 +246,9 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-cogs::before {
     content: "";
 }
-/* #endregion */
+/**************/
 
-/* #region Chat Tab*/
+/* CHAT TAB */
 .message-sender {
     color: #ffaf40;
     font-weight: bold;
@@ -267,7 +263,6 @@ i.fa-caret-left::before{
 }
 
 #chat-message{
-    /* background-image: url(./ui/img/parchment-smooth.png) !important; */
     box-shadow: 0px 0px 6px 1px #1e2022 inset;
     border-radius: 5px;
 }
@@ -328,11 +323,9 @@ i.fa-caret-left::before{
     background-size: 260px 100%!important;
     background-repeat: no-repeat;
 }
-/* #endregion*/
+/**********/
 
-/* #region Sidebar Folder and widgets*/
-
-
+/* SIDEBAR FOLDER AND WIDGETS */
 .sidebar-tab .directory-header .header-search {
     align-items: baseline;
 }
@@ -416,10 +409,9 @@ i.fa-caret-left::before{
 .subdirectory .folder {
     border-left: 2px solid #585858 !important;
 }
+/**********/
 
-/* #endregion */
-
-/* #region Compendium headers */
+/* COMPENDIUM HEADERS */
 #compendium > h3 {
     text-align: left;
     position: relative;
@@ -445,7 +437,7 @@ li.compendium-folder > .compendium-folder-header {
   border-bottom: 1px solid #000;
 }
 
-/* #endregion */
+/**********/
 
 #settings button {
    background-image: url(./ui/img/config.jpg);
@@ -466,21 +458,14 @@ button:hover {
     box-shadow: 0 0 5px #c7cace;
 }
 
-/* #region Remove speaker name background colors in Chat window */
 #chat-log .message .message-header .message-sender {
     background-color: rgba(0,0,0,0) !important;
 }
-/* #endregion */
 
 /* #region Fix so as not to bigfoot on VTTA's tag system */
 #sidebar section > ol.directory-list > li header > span.vtta-folder-label {
     text-shadow: 0px 0px 0px black !important;
 }
-/* #endregion */
-
-/* #region Chat log */
-
-/* #endregion */
 
 /* HOTBAR */
 #ui-bottom > div {
@@ -528,7 +513,6 @@ button:hover {
     left: -9px;
     z-index: 1;
 }
-
 
 #sidebar {
     width: 100%;
@@ -625,8 +609,6 @@ to {
     border: none !important;
 }
 
-
-
 #controls  {
   filter: sepia(100%) saturate(200%) brightness(150%) hue-rotate(350deg);
 }
@@ -654,19 +636,12 @@ to {
     background: #0c0c0c !important;
 }
 
-/* #chat-log .message.whisper .message-header {
-    background-image: url("./ui/img/parchment-hidden2.png") !important;
-} */
-
-
-
 #chat-log .message.whisper .message-header .message-metadata::before{
     color: #ffb144;
     content: " (Private Roll) ";
     float: left;
 
 }
-
 
 #chat-log .message.blind .message-header .message-metadata::before{
     background-image: url("./ui/img/parchment-hidden2.png") !important;
