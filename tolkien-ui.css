@@ -191,7 +191,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-music {
     content: "";
-    background-image: url("./ui/img/music_icon.png") !important;
+    background-image: url("./ui/img/icons/music_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
     margin-top: 1px !important;
@@ -276,12 +276,11 @@ i.fa-caret-left::before{
     height: 24px;
     top: 7px;
     padding-top: 0px;
-    background: url(./ui/img/parchment-smooth.png) repeat !important;
     background-position-x: 0%;
     background-position-y: 0%;
     background-position: initial;
     box-shadow: inset 0 0 10px #000000;
-    border-image: url(./ui/img/chat-controls-border.png) 4 repeat;
+    border-image: url("./ui/img/chat-controls-border.png") 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
     color: #ffb144;
