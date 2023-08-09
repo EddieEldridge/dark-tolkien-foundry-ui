@@ -121,7 +121,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-map {
     content: "";
-    background-image: url("./ui/img/icons/flag_icon.PNG") !important;
+    background-image: url("./ui/img/icons/flag_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -163,7 +163,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-book-open {
     content: "";
-    background-image: url("./ui/img/icons/scroll_icon.PNG") !important;
+    background-image: url("./ui/img/icons/scroll_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
@@ -177,7 +177,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-th-list {
     content: "";
-    background-image: url("./ui/img/icons/dice_icon.PNG") !important;
+    background-image: url("./ui/img/icons/dice_icon.png") !important;
     width: 95% !important;
     height: 95% !important;
     display: inline-block !important;
@@ -206,7 +206,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-atlas {
     content: "";
-    background-image: url("./ui/img/icons/book_icon.PNG") !important;
+    background-image: url("./ui/img/icons/book_icon.png") !important;
     width: 100% !important;
     height: 100% !important;
     display: inline-block !important;
