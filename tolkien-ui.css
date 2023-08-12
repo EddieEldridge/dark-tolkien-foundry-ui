@@ -383,14 +383,14 @@ i.fa-caret-left::before{
 
 /* #region Folders as buttons */
 .sidebar-tab .folder .folder-header {
-    background-image: url(./ui/img/buttonlight3.png)  !important;
+    background-image: url(./ui/img/buttonlight3.png) !important;
     text-align: left !important;
     background-position: center !important;
-    background-size: 100% 55px!important;
+    background-size: 100% 51px!important;
     background-repeat: no-repeat !important;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 22px;
     color: #ffffff;
     text-shadow: 2px 2px black;
 }
