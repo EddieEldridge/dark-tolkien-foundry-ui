@@ -707,3 +707,15 @@ to {
     font-size: 15px;
     color: #ffffff;
 }
+
+.button-protection-roll {
+    background-color: darkgoldenrod !important;
+}
+
+.apply-damage-element {
+    background-color: darkgoldenrod !important;
+}
+
+.button-injury-roll {
+    background-color: darkgoldenrod !important;
+}

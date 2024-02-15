@@ -18,11 +18,21 @@ Then you may copy this url https://github.com/EddieEldridge/tolkien-foundry-ui/r
 ### **Note**
 The LOTR logo in the top left is not included as part of this module. To re-create this effect, install the [Custom CSS Rules module](https://foundryvtt.com/packages/custom-css) and input the following
 
-```
+```css
 #logo {
 	content:url("https://www.theknightsvault.com/wp-content/uploads/2017/08/Lord-of-The-Rings-Logo-PNG-Transparent-Image.png");
 	padding-left: 18px;
 	width: 90px;
+}
+```
+
+**Moving the hotbar back to the left**
+
+```css
+#ui-bottom > div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 160px;
 }
 ```
 
