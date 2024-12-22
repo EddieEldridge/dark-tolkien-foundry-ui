@@ -42,7 +42,7 @@
     padding: 5px
 }
 
-i.fa-caret-right::before{
+.fas.fa-caret-right::before{
     content: "";
 }
 
@@ -58,12 +58,12 @@ i.fa-caret-right::before{
     text-align: center;
 }
 
-i.fa-caret-left::before{
+.fas.fa-caret-left::before{
     content: "";
 
 }
 
-.fa-caret-left{
+.collapse {
     background-image: url("./ui/img/icons/inout.png") !important;
     width: 100%;
     height: 100%;
@@ -76,7 +76,7 @@ i.fa-caret-left::before{
     vertical-align: top;
 }
 
-#sidebar #sidebar-tabs i.fa-comments {
+.item[data-tab="chat"] {
     content: "";
     background-image: url("./ui/img/icons/chat_icon.png") !important;
     width: 100% !important;
@@ -101,11 +101,11 @@ i.fa-caret-left::before{
     border: 2px solid #f78d05;
     box-shadow: 0 0 6px inset #eeaa00;
 }
-#sidebar #sidebar-tabs i.fa-comments::before {
+#sidebar #sidebar-tabs .fas.fa-comments::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-swords {
+.item[data-tab="combat"] {
     content: "";
     background-image: url("./ui/img/icons/battle_icon.png") !important;
     width: 100% !important;
@@ -115,11 +115,11 @@ i.fa-caret-left::before{
     background-size:cover !important;
 }
 
-#sidebar #sidebar-tabs i.fa-swords::before {
+#sidebar #sidebar-tabs .fas.fa-swords::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-map {
+.item[data-tab="scenes"] {
     content: "";
     background-image: url("./ui/img/icons/flag_icon.png") !important;
     width: 100% !important;
@@ -129,11 +129,11 @@ i.fa-caret-left::before{
     background-size:cover !important;
 }
 
-#sidebar #sidebar-tabs i.fa-map::before {
+#sidebar #sidebar-tabs .fas.fa-map::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-user {
+.item[data-tab="actors"] {
     content: "";
     background-image: url("./ui/img/icons/actors_icon.png") !important;
     width: 100% !important;
@@ -143,11 +143,11 @@ i.fa-caret-left::before{
     background-size:cover !important;
 }
 
-#sidebar #sidebar-tabs i.fa-user::before {
+#sidebar #sidebar-tabs .fas.fa-user::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-suitcase {
+.item[data-tab="items"] {
     content: "";
     background-image: url("./ui/img/icons/chest_icon.png") !important;
     width: 100% !important;
@@ -157,11 +157,11 @@ i.fa-caret-left::before{
     background-size:cover !important;
 }
 
-#sidebar #sidebar-tabs i.fa-suitcase::before {
+#sidebar #sidebar-tabs .fas.fa-suitcase::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-book-open {
+.item[data-tab="journal"] {
     content: "";
     background-image: url("./ui/img/icons/scroll_icon.png") !important;
     width: 100% !important;
@@ -171,11 +171,11 @@ i.fa-caret-left::before{
     background-size:cover !important;
 }
 
-#sidebar #sidebar-tabs i.fa-book-open::before {
+#sidebar #sidebar-tabs .fas.fa-book-open::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-th-list {
+.item[data-tab="tables"] {
     content: "";
     background-image: url("./ui/img/icons/dice_icon.png") !important;
     width: 95% !important;
@@ -185,11 +185,11 @@ i.fa-caret-left::before{
     background-size:cover !important;
 }
 
-#sidebar #sidebar-tabs i.fa-th-list::before {
+#sidebar #sidebar-tabs .fas.fa-th-list::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-music {
+.item[data-tab="playlists"] {
     content: "";
     background-image: url("./ui/img/icons/music_icon.png") !important;
     width: 100% !important;
@@ -200,11 +200,11 @@ i.fa-caret-left::before{
     background-size:cover !important;
 }
 
-#sidebar #sidebar-tabs i.fa-music::before {
+#sidebar #sidebar-tabs .fas.fa-music::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-atlas {
+.item[data-tab="compendium"] {
     content: "";
     background-image: url("./ui/img/icons/book_icon.png") !important;
     width: 100% !important;
@@ -214,11 +214,11 @@ i.fa-caret-left::before{
     background-size:cover !important;
 }
 
-#sidebar #sidebar-tabs i.fa-atlas::before {
+#sidebar #sidebar-tabs .fas.fa-atlas::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-cards {
+.item[data-tab="cards"] {
     content: "";
     background-image: url("./ui/img/icons/card_icon.png") !important;
     width: 100% !important;
@@ -228,11 +228,11 @@ i.fa-caret-left::before{
     background-size:cover !important;
 }
 
-#sidebar #sidebar-tabs i.fa-cards::before {
+#sidebar #sidebar-tabs .fas.fa-cards::before {
     content: "";
 }
 
-#sidebar #sidebar-tabs i.fa-cogs {
+.item[data-tab="settings"] {
     content: "";
     background-image: url("./ui/img/icons/config_icon.png") !important;
     width: 100% !important;
@@ -243,7 +243,7 @@ i.fa-caret-left::before{
     background-size:cover !important;
 }
 
-#sidebar #sidebar-tabs i.fa-cogs::before {
+#sidebar #sidebar-tabs .fas.fa-cogs::before {
     content: "";
 }
 /**************/

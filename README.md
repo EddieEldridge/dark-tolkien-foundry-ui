@@ -2,7 +2,7 @@
 A dark 'Tolkien' inspired custom UI built from scratch including custom icons, hotbar, sidebar and more!
 
 ## Compatibility
-Foundry version V10+
+Foundry version V12+
 
 ## Setup
 To install this module, go to the World Configuration and Setup, Addon Modules, Install Module.
